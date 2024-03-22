@@ -1,0 +1,898 @@
+{
+    "kind": "books#volumes",
+    "totalItems": 150,
+    "items": [
+        {
+            "kind": "books#volume",
+            "id": "kYjqAQAAQBAJ",
+            "etag": "vA2910PT+Ek",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/kYjqAQAAQBAJ",
+            "volumeInfo": {
+                "title": "Words of Radiance",
+                "subtitle": "Book Two of the Stormlight Archive",
+                "authors": [
+                    "Brandon Sanderson"
+                ],
+                "publisher": "Tor Books",
+                "publishedDate": "2014-03-04",
+                "description": "From #1 New York Times bestselling author Brandon Sanderson, Words of Radiance, Book Two of the Stormlight Archive, continues the immersive fantasy epic that The Way of Kings began. Expected by his enemies to die the miserable death of a military slave, Kaladin survived to be given command of the royal bodyguards, a controversial first for a low-status \"darkeyes.\" Now he must protect the king and Dalinar from every common peril as well as the distinctly uncommon threat of the Assassin, all while secretly struggling to master remarkable new powers that are somehow linked to his honorspren, Syl. The Assassin, Szeth, is active again, murdering rulers all over the world of Roshar, using his baffling powers to thwart every bodyguard and elude all pursuers. Among his prime targets is Highprince Dalinar, widely considered the power behind the Alethi throne. His leading role in the war would seem reason enough, but the Assassin's master has much deeper motives. Brilliant but troubled Shallan strives along a parallel path. Despite being broken in ways she refuses to acknowledge, she bears a terrible burden: to somehow prevent the return of the legendary Voidbringers and the civilization-ending Desolation that will follow. The secrets she needs can be found at the Shattered Plains, but just arriving there proves more difficult than she could have imagined. Meanwhile, at the heart of the Shattered Plains, the Parshendi are making an epochal decision. Hard pressed by years of Alethi attacks, their numbers ever shrinking, they are convinced by their war leader, Eshonai, to risk everything on a desperate gamble with the very supernatural forces they once fled. The possible consequences for Parshendi and humans alike, indeed, for Roshar itself, are as dangerous as they are incalculable. Other Tor books by Brandon Sanderson The Cosmere The Stormlight Archive The Way of Kings Words of Radiance Edgedancer (Novella) Oathbringer The Mistborn trilogy Mistborn: The Final Empire The Well of Ascension The Hero of Ages Mistborn: The Wax and Wayne series Alloy of Law Shadows of Self Bands of Mourning Collection Arcanum Unbounded Other Cosmere novels Elantris Warbreaker The Alcatraz vs. the Evil Librarians series Alcatraz vs. the Evil Librarians The Scrivener's Bones The Knights of Crystallia The Shattered Lens The Dark Talent The Rithmatist series The Rithmatist Other books by Brandon Sanderson The Reckoners Steelheart Firefight Calamity At the Publisher's request, this title is being sold without Digital Rights Management Software (DRM) applied.",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9781429949620"
+                    },
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "1429949627"
+                    }
+                ],
+                "readingModes": {
+                    "text": true,
+                    "image": false
+                },
+                "pageCount": 1304,
+                "printType": "BOOK",
+                "categories": [
+                    "Fiction"
+                ],
+                "averageRating": 5,
+                "ratingsCount": 3,
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": true,
+                "contentVersion": "3.22.19.0.preview.2",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=kYjqAQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=kYjqAQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com/books?id=kYjqAQAAQBAJ&printsec=frontcover&dq=stormlight+inauthor:sanderson&hl=&cd=1&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=kYjqAQAAQBAJ&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=kYjqAQAAQBAJ"
+            },
+            "saleInfo": {
+                "country": "US",
+                "saleability": "FOR_SALE",
+                "isEbook": true,
+                "listPrice": {
+                    "amount": 9.99,
+                    "currencyCode": "USD"
+                },
+                "retailPrice": {
+                    "amount": 9.99,
+                    "currencyCode": "USD"
+                },
+                "buyLink": "https://play.google.com/store/books/details?id=kYjqAQAAQBAJ&rdid=book-kYjqAQAAQBAJ&rdot=1&source=gbs_api",
+                "offers": [
+                    {
+                        "finskyOfferType": 1,
+                        "listPrice": {
+                            "amountInMicros": 9990000,
+                            "currencyCode": "USD"
+                        },
+                        "retailPrice": {
+                            "amountInMicros": 9990000,
+                            "currencyCode": "USD"
+                        },
+                        "giftable": true
+                    }
+                ]
+            },
+            "accessInfo": {
+                "country": "US",
+                "viewability": "PARTIAL",
+                "embeddable": true,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": true
+                },
+                "pdf": {
+                    "isAvailable": false
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=kYjqAQAAQBAJ&hl=&source=gbs_api",
+                "accessViewStatus": "SAMPLE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "Other Tor books by Brandon Sanderson The Cosmere The Stormlight Archive The Way of Kings Words of Radiance Edgedancer (Novella) Oathbringer The Mistborn trilogy Mistborn: The Final Empire The Well of Ascension The Hero of Ages Mistborn: The ..."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "mwpNDwAAQBAJ",
+            "etag": "RS6Gifo4358",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/mwpNDwAAQBAJ",
+            "volumeInfo": {
+                "title": "The Stormlight Archive, Books 1-3",
+                "subtitle": "The Way of Kings, Words of Radiance, Oathbringer",
+                "authors": [
+                    "Brandon Sanderson"
+                ],
+                "publisher": "Tor Books",
+                "publishedDate": "2018-05-08",
+                "description": "This Stormlight Archive discounted ebundle includes: The Way of Kings, Words of Radiance, Oathbringer The #1 New York Times bestselling epic fantasy series by Brandon Sanderson! The Stormlight Archive is the wildly imaginative epic fantasy from New York Times bestselling author Brandon Sanderson: welcome to the remarkable world of Roshar, a world of stone and storms. Uncanny tempests of incredible power sweep across the rocky terrain so frequently that they have shaped ecology and civilization alike. Roshar is shared by humans and the enigmatic, humanoid Parshendi, with whom they are at war. It has been centuries since the fall of the ten consecrated orders known as the Knights Radiant, but their Shardblades and Shardplate remain. Men trade kingdoms for Shardblades. Wars were fought for them, and won by them, but in the war against the Parshendi, the ancient weapons and armor may not be enough. Speak again the ancient oaths: Life before death. Strength before weakness. Journey before Destination. and return to men the Shards they once bore. The Knights Radiant must stand again. --- Other Tor books by Brandon Sanderson The Cosmere The Stormlight Archive The Way of Kings Words of Radiance Edgedancer (Novella) Oathbringer The Mistborn trilogy Mistborn: The Final Empire The Well of Ascension The Hero of Ages Mistborn: The Wax and Wayne series Alloy of Law Shadows of Self Bands of Mourning Collection Arcanum Unbounded Other Cosmere novels Elantris Warbreaker The Alcatraz vs. the Evil Librarians series Alcatraz vs. the Evil Librarians The Scrivener's Bones The Knights of Crystallia The Shattered Lens The Dark Talent The Rithmatist series The Rithmatist Other books by Brandon Sanderson The Reckoners Steelheart Firefight Calamity At the Publisher's request, this title is being sold without Digital Rights Management Software (DRM) applied.",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9781250305411"
+                    },
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "1250305411"
+                    }
+                ],
+                "readingModes": {
+                    "text": true,
+                    "image": false
+                },
+                "pageCount": 3837,
+                "printType": "BOOK",
+                "categories": [
+                    "Fiction"
+                ],
+                "averageRating": 5,
+                "ratingsCount": 1,
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": true,
+                "contentVersion": "1.6.7.0.preview.2",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=mwpNDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=mwpNDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com/books?id=mwpNDwAAQBAJ&printsec=frontcover&dq=stormlight+inauthor:sanderson&hl=&cd=2&source=gbs_api",
+                "infoLink": "http://books.google.com/books?id=mwpNDwAAQBAJ&dq=stormlight+inauthor:sanderson&hl=&source=gbs_api",
+                "canonicalVolumeLink": "https://books.google.com/books/about/The_Stormlight_Archive_Books_1_3.html?hl=&id=mwpNDwAAQBAJ"
+            },
+            "saleInfo": {
+                "country": "US",
+                "saleability": "NOT_FOR_SALE",
+                "isEbook": false
+            },
+            "accessInfo": {
+                "country": "US",
+                "viewability": "PARTIAL",
+                "embeddable": true,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": true
+                },
+                "pdf": {
+                    "isAvailable": false
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=mwpNDwAAQBAJ&hl=&source=gbs_api",
+                "accessViewStatus": "SAMPLE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "--- Other Tor books by Brandon Sanderson The Cosmere The Stormlight Archive The Way of Kings Words of Radiance Edgedancer (Novella) Oathbringer The Mistborn trilogy Mistborn: The Final Empire The Well of Ascension The Hero of Ages Mistborn: ..."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "kIjwwAEACAAJ",
+            "etag": "SpTYm6J4fQA",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/kIjwwAEACAAJ",
+            "volumeInfo": {
+                "title": "The Way of Kings",
+                "subtitle": "Book One of the Stormlight Archive",
+                "authors": [
+                    "Brandon Sanderson"
+                ],
+                "publisher": "Tor Books",
+                "publishedDate": "2010-08-31",
+                "description": "From #1 New York Times bestselling author Brandon Sanderson, The Way of Kings, Book One of the Stormlight Archive begins an incredible new saga of epic proportion. Roshar is a world of stone and storms. Uncanny tempests of incredible power sweep across the rocky terrain so frequently that they have shaped ecology and civilization alike. Animals hide in shells, trees pull in branches, and grass retracts into the soilless ground. Cities are built only where the topography offers shelter. It has been centuries since the fall of the ten consecrated orders known as the Knights Radiant, but their Shardblades and Shardplate remain: mystical swords and suits of armor that transform ordinary men into near-invincible warriors. Men trade kingdoms for Shardblades. Wars were fought for them, and won by them. One such war rages on a ruined landscape called the Shattered Plains. There, Kaladin, who traded his medical apprenticeship for a spear to protect his little brother, has been reduced to slavery. In a war that makes no sense, where ten armies fight separately against a single foe, he struggles to save his men and to fathom the leaders who consider them expendable. Brightlord Dalinar Kholin commands one of those other armies. Like his brother, the late king, he is fascinated by an ancient text called The Way of Kings. Troubled by over-powering visions of ancient times and the Knights Radiant, he has begun to doubt his own sanity. Across the ocean, an untried young woman named Shallan seeks to train under an eminent scholar and notorious heretic, Dalinar's niece, Jasnah. Though she genuinely loves learning, Shallan's motives are less than pure. As she plans a daring theft, her research for Jasnah hints at secrets of the Knights Radiant and the true cause of the war. The result of over ten years of planning, writing, and world-building, The Way of Kings is but the opening movement of the Stormlight Archive, a bold masterpiece in the making. Speak again the ancient oaths: Life before death. Strength before weakness. Journey before Destination. and return to men the Shards they once bore. The Knights Radiant must stand again. Other Tor books by Brandon Sanderson The Cosmere The Stormlight Archive The Way of Kings Words of Radiance Edgedancer (Novella) Oathbringer (forthcoming) The Mistborn trilogy Mistborn: The Final Empire The Well of Ascension The Hero of Ages Mistborn: The Wax and Wayne series Alloy of Law Shadows of Self Bands of Mourning Collection Arcanum Unbounded Other Cosmere novels Elantris Warbreaker The Alcatraz vs. the Evil Librarians series Alcatraz vs. the Evil Librarians The Scrivener's Bones The Knights of Crystallia The Shattered Lens The Dark Talent The Rithmatist series The Rithmatist Other books by Brandon Sanderson The Reckoners Steelheart Firefight Calamity",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "0765326353"
+                    },
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9780765326355"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": false
+                },
+                "pageCount": 1008,
+                "printType": "BOOK",
+                "categories": [
+                    "Fiction"
+                ],
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "preview-1.0.0",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=kIjwwAEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=kIjwwAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com/books?id=kIjwwAEACAAJ&dq=stormlight+inauthor:sanderson&hl=&cd=3&source=gbs_api",
+                "infoLink": "http://books.google.com/books?id=kIjwwAEACAAJ&dq=stormlight+inauthor:sanderson&hl=&source=gbs_api",
+                "canonicalVolumeLink": "https://books.google.com/books/about/The_Way_of_Kings.html?hl=&id=kIjwwAEACAAJ"
+            },
+            "saleInfo": {
+                "country": "US",
+                "saleability": "NOT_FOR_SALE",
+                "isEbook": false
+            },
+            "accessInfo": {
+                "country": "US",
+                "viewability": "NO_PAGES",
+                "embeddable": false,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false
+                },
+                "pdf": {
+                    "isAvailable": false
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=kIjwwAEACAAJ&hl=&source=gbs_api",
+                "accessViewStatus": "NONE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "Other Tor books by Brandon Sanderson The Cosmere The Stormlight Archive The Way of Kings Words of Radiance Edgedancer (Novella) Oathbringer (forthcoming) The Mistborn trilogy Mistborn: The Final Empire The Well of Ascension The Hero of Ages ..."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "OHclhBVv-X4C",
+            "etag": "RCC7bXhA7V8",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/OHclhBVv-X4C",
+            "volumeInfo": {
+                "title": "The Way of Kings",
+                "subtitle": "Book One of the Stormlight Archive",
+                "authors": [
+                    "Brandon Sanderson"
+                ],
+                "publisher": "Tor Books",
+                "publishedDate": "2010-08-31",
+                "description": "From #1 New York Times bestselling author Brandon Sanderson, The Way of Kings, Book One of the Stormlight Archive begins an incredible new saga of epic proportion. Roshar is a world of stone and storms. Uncanny tempests of incredible power sweep across the rocky terrain so frequently that they have shaped ecology and civilization alike. Animals hide in shells, trees pull in branches, and grass retracts into the soilless ground. Cities are built only where the topography offers shelter. It has been centuries since the fall of the ten consecrated orders known as the Knights Radiant, but their Shardblades and Shardplate remain: mystical swords and suits of armor that transform ordinary men into near-invincible warriors. Men trade kingdoms for Shardblades. Wars were fought for them, and won by them. One such war rages on a ruined landscape called the Shattered Plains. There, Kaladin, who traded his medical apprenticeship for a spear to protect his little brother, has been reduced to slavery. In a war that makes no sense, where ten armies fight separately against a single foe, he struggles to save his men and to fathom the leaders who consider them expendable. Brightlord Dalinar Kholin commands one of those other armies. Like his brother, the late king, he is fascinated by an ancient text called The Way of Kings. Troubled by over-powering visions of ancient times and the Knights Radiant, he has begun to doubt his own sanity. Across the ocean, an untried young woman named Shallan seeks to train under an eminent scholar and notorious heretic, Dalinar's niece, Jasnah. Though she genuinely loves learning, Shallan's motives are less than pure. As she plans a daring theft, her research for Jasnah hints at secrets of the Knights Radiant and the true cause of the war. The result of over ten years of planning, writing, and world-building, The Way of Kings is but the opening movement of the Stormlight Archive, a bold masterpiece in the making. Speak again the ancient oaths: Life before death. Strength before weakness. Journey before Destination. and return to men the Shards they once bore. The Knights Radiant must stand again. Other Tor books by Brandon Sanderson The Cosmere The Stormlight Archive The Way of Kings Words of Radiance Edgedancer (Novella) Oathbringer The Mistborn trilogy Mistborn: The Final Empire The Well of Ascension The Hero of Ages Mistborn: The Wax and Wayne series Alloy of Law Shadows of Self Bands of Mourning Collection Arcanum Unbounded Other Cosmere novels Elantris Warbreaker The Alcatraz vs. the Evil Librarians series Alcatraz vs. the Evil Librarians The Scrivener's Bones The Knights of Crystallia The Shattered Lens The Dark Talent The Rithmatist series The Rithmatist Other books by Brandon Sanderson The Reckoners Steelheart Firefight Calamity At the Publisher's request, this title is being sold without Digital Rights Management Software (DRM) applied.",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9781429992800"
+                    },
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "1429992808"
+                    }
+                ],
+                "readingModes": {
+                    "text": true,
+                    "image": false
+                },
+                "pageCount": 1008,
+                "printType": "BOOK",
+                "categories": [
+                    "Fiction"
+                ],
+                "averageRating": 4.5,
+                "ratingsCount": 129,
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": true,
+                "contentVersion": "1.45.42.0.preview.2",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=OHclhBVv-X4C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=OHclhBVv-X4C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com/books?id=OHclhBVv-X4C&printsec=frontcover&dq=stormlight+inauthor:sanderson&hl=&cd=4&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=OHclhBVv-X4C&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=OHclhBVv-X4C"
+            },
+            "saleInfo": {
+                "country": "US",
+                "saleability": "FOR_SALE",
+                "isEbook": true,
+                "listPrice": {
+                    "amount": 7.99,
+                    "currencyCode": "USD"
+                },
+                "retailPrice": {
+                    "amount": 7.99,
+                    "currencyCode": "USD"
+                },
+                "buyLink": "https://play.google.com/store/books/details?id=OHclhBVv-X4C&rdid=book-OHclhBVv-X4C&rdot=1&source=gbs_api",
+                "offers": [
+                    {
+                        "finskyOfferType": 1,
+                        "listPrice": {
+                            "amountInMicros": 7990000,
+                            "currencyCode": "USD"
+                        },
+                        "retailPrice": {
+                            "amountInMicros": 7990000,
+                            "currencyCode": "USD"
+                        },
+                        "giftable": true
+                    }
+                ]
+            },
+            "accessInfo": {
+                "country": "US",
+                "viewability": "PARTIAL",
+                "embeddable": true,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": true
+                },
+                "pdf": {
+                    "isAvailable": false
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=OHclhBVv-X4C&hl=&source=gbs_api",
+                "accessViewStatus": "SAMPLE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "Other Tor books by Brandon Sanderson The Cosmere The Stormlight Archive The Way of Kings Words of Radiance Edgedancer (Novella) Oathbringer The Mistborn trilogy Mistborn: The Final Empire The Well of Ascension The Hero of Ages Mistborn: The ..."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "c88HEAAAQBAJ",
+            "etag": "+hbht8Svz2U",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/c88HEAAAQBAJ",
+            "volumeInfo": {
+                "title": "Dawnshard",
+                "subtitle": "From the Stormlight Archive",
+                "authors": [
+                    "Brandon Sanderson"
+                ],
+                "publisher": "Dragonsteel, LLC",
+                "publishedDate": "2020-11-10",
+                "description": "From Brandon Sanderson—author of the #1 New York Times bestselling Stormlight Archive and its fourth massive installment, Rhythm of War—comes a new hefty novella, Dawnshard. Taking place between Oathbringer and Rhythm of War, this tale (like Edgedancer before it) gives often-overshadowed characters their own chance to shine. When a ghost ship is discovered, its crew presumed dead after trying to reach the storm-shrouded island Akinah, Navani Kholin must send an expedition to make sure the island hasn't fallen into enemy hands. Knights Radiant who fly too near find their Stormlight suddenly drained, so the voyage must be by sea. Shipowner Rysn Ftori lost the use of her legs but gained the companionship of Chiri-Chiri, a Stormlight-ingesting winged larkin, a species once thought extinct. Now Rysn's pet is ill, and any hope for Chiri-Chiri’s recovery can be found only at the ancestral home of the larkin: Akinah. With the help of Lopen, the formerly one-armed Windrunner, Rysn must accept Navani's quest and sail into the perilous storm from which no one has returned alive. If the crew cannot uncover the secrets of the hidden island city before the wrath of its ancient guardians falls upon them, the fate of Roshar and the entire Cosmere hangs in the balance.",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9781938570261"
+                    },
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "193857026X"
+                    }
+                ],
+                "readingModes": {
+                    "text": true,
+                    "image": false
+                },
+                "pageCount": 206,
+                "printType": "BOOK",
+                "categories": [
+                    "Fiction"
+                ],
+                "averageRating": 5,
+                "ratingsCount": 1,
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": true,
+                "contentVersion": "2.2.2.0.preview.2",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=c88HEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=c88HEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com/books?id=c88HEAAAQBAJ&printsec=frontcover&dq=stormlight+inauthor:sanderson&hl=&cd=5&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=c88HEAAAQBAJ&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=c88HEAAAQBAJ"
+            },
+            "saleInfo": {
+                "country": "US",
+                "saleability": "FOR_SALE",
+                "isEbook": true,
+                "listPrice": {
+                    "amount": 7.99,
+                    "currencyCode": "USD"
+                },
+                "retailPrice": {
+                    "amount": 7.99,
+                    "currencyCode": "USD"
+                },
+                "buyLink": "https://play.google.com/store/books/details?id=c88HEAAAQBAJ&rdid=book-c88HEAAAQBAJ&rdot=1&source=gbs_api",
+                "offers": [
+                    {
+                        "finskyOfferType": 1,
+                        "listPrice": {
+                            "amountInMicros": 7990000,
+                            "currencyCode": "USD"
+                        },
+                        "retailPrice": {
+                            "amountInMicros": 7990000,
+                            "currencyCode": "USD"
+                        },
+                        "giftable": true
+                    }
+                ]
+            },
+            "accessInfo": {
+                "country": "US",
+                "viewability": "PARTIAL",
+                "embeddable": true,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": true
+                },
+                "pdf": {
+                    "isAvailable": false
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=c88HEAAAQBAJ&hl=&source=gbs_api",
+                "accessViewStatus": "SAMPLE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "Taking place between Oathbringer and Rhythm of War, this tale (like Edgedancer before it) gives often-overshadowed characters their own chance to shine."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "2_NrDgAAQBAJ",
+            "etag": "ZhcO6HH6FMQ",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/2_NrDgAAQBAJ",
+            "volumeInfo": {
+                "title": "Edgedancer",
+                "subtitle": "From the Stormlight Archive",
+                "authors": [
+                    "Brandon Sanderson"
+                ],
+                "publisher": "Tor Books",
+                "publishedDate": "2017-10-17",
+                "description": "From #1 New York Times bestselling author Brandon Sanderson, a special gift edition of Edgedancer, a short novel of the Stormlight Archive (previously published in Arcanum Unbounded). Three years ago, Lift asked a goddess to stop her from growing older--a wish she believed was granted. Now, in Edgedancer, the barely teenage nascent Knight Radiant finds that time stands still for no one. Although the young Azish emperor granted her safe haven from an executioner she knows only as Darkness, court life is suffocating the free-spirited Lift, who can't help heading to Yeddaw when she hears the relentless Darkness is there hunting people like her with budding powers. The downtrodden in Yeddaw have no champion, and Lift knows she must seize this awesome responsibility. Other Tor books by Brandon Sanderson The Cosmere The Stormlight Archive The Way of Kings Words of Radiance Edgedancer (Novella) Oathbringer The Mistborn trilogy Mistborn: The Final Empire The Well of Ascension The Hero of Ages Mistborn: The Wax and Wayne series Alloy of Law Shadows of Self Bands of Mourning Collection Arcanum Unbounded Other Cosmere novels Elantris Warbreaker The Alcatraz vs. the Evil Librarians series Alcatraz vs. the Evil Librarians The Scrivener's Bones The Knights of Crystallia The Shattered Lens The Dark Talent The Rithmatist series The Rithmatist Other books by Brandon Sanderson The Reckoners Steelheart Firefight Calamity At the Publisher's request, this title is being sold without Digital Rights Management Software (DRM) applied.",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9781250166609"
+                    },
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "1250166608"
+                    }
+                ],
+                "readingModes": {
+                    "text": true,
+                    "image": false
+                },
+                "pageCount": 226,
+                "printType": "BOOK",
+                "categories": [
+                    "Fiction"
+                ],
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": true,
+                "contentVersion": "1.10.10.0.preview.2",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=2_NrDgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=2_NrDgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com/books?id=2_NrDgAAQBAJ&printsec=frontcover&dq=stormlight+inauthor:sanderson&hl=&cd=6&source=gbs_api",
+                "infoLink": "http://books.google.com/books?id=2_NrDgAAQBAJ&dq=stormlight+inauthor:sanderson&hl=&source=gbs_api",
+                "canonicalVolumeLink": "https://books.google.com/books/about/Edgedancer.html?hl=&id=2_NrDgAAQBAJ"
+            },
+            "saleInfo": {
+                "country": "US",
+                "saleability": "NOT_FOR_SALE",
+                "isEbook": false
+            },
+            "accessInfo": {
+                "country": "US",
+                "viewability": "PARTIAL",
+                "embeddable": true,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": true
+                },
+                "pdf": {
+                    "isAvailable": false
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=2_NrDgAAQBAJ&hl=&source=gbs_api",
+                "accessViewStatus": "SAMPLE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "Other Tor books by Brandon Sanderson The Cosmere The Stormlight Archive The Way of Kings Words of Radiance Edgedancer (Novella) Oathbringer The Mistborn trilogy Mistborn: The Final Empire The Well of Ascension The Hero of Ages Mistborn: The ..."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "QCPBDwAAQBAJ",
+            "etag": "Flvz7q/bdKc",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/QCPBDwAAQBAJ",
+            "volumeInfo": {
+                "title": "Rhythm of War",
+                "subtitle": "Book Four of The Stormlight Archive",
+                "authors": [
+                    "Brandon Sanderson"
+                ],
+                "publisher": "Tor Books",
+                "publishedDate": "2020-11-17",
+                "description": "An instant #1 New York Times Bestseller and a USA Today and Indie Bestseller! The Stormlight Archive saga continues in Rhythm of War, the eagerly awaited sequel to Brandon Sanderson's #1 New York Times bestselling Oathbringer, from an epic fantasy writer at the top of his game. After forming a coalition of human resistance against the enemy invasion, Dalinar Kholin and his Knights Radiant have spent a year fighting a protracted, brutal war. Neither side has gained an advantage, and the threat of a betrayal by Dalinar’s crafty ally Taravangian looms over every strategic move. Now, as new technological discoveries by Navani Kholin’s scholars begin to change the face of the war, the enemy prepares a bold and dangerous operation. The arms race that follows will challenge the very core of the Radiant ideals, and potentially reveal the secrets of the ancient tower that was once the heart of their strength. At the same time that Kaladin Stormblessed must come to grips with his changing role within the Knights Radiant, his Windrunners face their own problem: As more and more deadly enemy Fused awaken to wage war, no more honorspren are willing to bond with humans to increase the number of Radiants. Adolin and Shallan must lead the coalition’s envoy to the honorspren stronghold of Lasting Integrity and either convince the spren to join the cause against the evil god Odium, or personally face the storm of failure. Other Tor books by Brandon Sanderson The Cosmere The Stormlight Archive The Way of Kings Words of Radiance Edgedancer (Novella) Oathbringer Rhythm of War The Mistborn trilogy Mistborn: The Final Empire The Well of Ascension The Hero of Ages Mistborn: The Wax and Wayne series Alloy of Law Shadows of Self Bands of Mourning Collection Arcanum Unbounded Other Cosmere novels Elantris Warbreaker The Alcatraz vs. the Evil Librarians series Alcatraz vs. the Evil Librarians The Scrivener's Bones The Knights of Crystallia The Shattered Lens The Dark Talent The Rithmatist series The Rithmatist Other books by Brandon Sanderson The Reckoners Steelheart Firefight Calamity At the Publisher's request, this title is being sold without Digital Rights Management Software (DRM) applied.",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9781429952040"
+                    },
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "1429952040"
+                    }
+                ],
+                "readingModes": {
+                    "text": true,
+                    "image": false
+                },
+                "pageCount": 1374,
+                "printType": "BOOK",
+                "categories": [
+                    "Fiction"
+                ],
+                "averageRating": 5,
+                "ratingsCount": 1,
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": true,
+                "contentVersion": "2.14.11.0.preview.2",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=QCPBDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=QCPBDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com/books?id=QCPBDwAAQBAJ&printsec=frontcover&dq=stormlight+inauthor:sanderson&hl=&cd=7&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=QCPBDwAAQBAJ&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=QCPBDwAAQBAJ"
+            },
+            "saleInfo": {
+                "country": "US",
+                "saleability": "FOR_SALE",
+                "isEbook": true,
+                "listPrice": {
+                    "amount": 9.99,
+                    "currencyCode": "USD"
+                },
+                "retailPrice": {
+                    "amount": 9.99,
+                    "currencyCode": "USD"
+                },
+                "buyLink": "https://play.google.com/store/books/details?id=QCPBDwAAQBAJ&rdid=book-QCPBDwAAQBAJ&rdot=1&source=gbs_api",
+                "offers": [
+                    {
+                        "finskyOfferType": 1,
+                        "listPrice": {
+                            "amountInMicros": 9990000,
+                            "currencyCode": "USD"
+                        },
+                        "retailPrice": {
+                            "amountInMicros": 9990000,
+                            "currencyCode": "USD"
+                        },
+                        "giftable": true
+                    }
+                ]
+            },
+            "accessInfo": {
+                "country": "US",
+                "viewability": "PARTIAL",
+                "embeddable": true,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": true
+                },
+                "pdf": {
+                    "isAvailable": false
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=QCPBDwAAQBAJ&hl=&source=gbs_api",
+                "accessViewStatus": "SAMPLE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "Other Tor books by Brandon Sanderson The Cosmere The Stormlight Archive The Way of Kings Words of Radiance Edgedancer (Novella) Oathbringer Rhythm of War The Mistborn trilogy Mistborn: The Final Empire The Well of Ascension The Hero of Ages ..."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "VsT3DQAAQBAJ",
+            "etag": "4KCSVRG6o/Y",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/VsT3DQAAQBAJ",
+            "volumeInfo": {
+                "title": "Oathbringer",
+                "subtitle": "Book Three of the Stormlight Archive",
+                "authors": [
+                    "Brandon Sanderson"
+                ],
+                "publisher": "Tor Books",
+                "publishedDate": "2017-11-14",
+                "description": "The #1 New York Times bestselling sequel to Words of Radiance, from epic fantasy author Brandon Sanderson at the top of his game. In Oathbringer, the third volume of the New York Times bestselling Stormlight Archive, humanity faces a new Desolation with the return of the Voidbringers, a foe with numbers as great as their thirst for vengeance. Dalinar Kholin’s Alethi armies won a fleeting victory at a terrible cost: The enemy Parshendi summoned the violent Everstorm, which now sweeps the world with destruction, and in its passing awakens the once peaceful and subservient parshmen to the horror of their millennia-long enslavement by humans. While on a desperate flight to warn his family of the threat, Kaladin Stormblessed must come to grips with the fact that the newly kindled anger of the parshmen may be wholly justified. Nestled in the mountains high above the storms, in the tower city of Urithiru, Shallan Davar investigates the wonders of the ancient stronghold of the Knights Radiant and unearths dark secrets lurking in its depths. And Dalinar realizes that his holy mission to unite his homeland of Alethkar was too narrow in scope. Unless all the nations of Roshar can put aside Dalinar’s blood-soaked past and stand together—and unless Dalinar himself can confront that past—even the restoration of the Knights Radiant will not prevent the end of civilization. Other Tor books by Brandon Sanderson The Cosmere The Stormlight Archive The Way of Kings Words of Radiance Edgedancer (Novella) Oathbringer The Mistborn trilogy Mistborn: The Final Empire The Well of Ascension The Hero of Ages Mistborn: The Wax and Wayne series Alloy of Law Shadows of Self Bands of Mourning Collection Arcanum Unbounded Other Cosmere novels Elantris Warbreaker The Alcatraz vs. the Evil Librarians series Alcatraz vs. the Evil Librarians The Scrivener's Bones The Knights of Crystallia The Shattered Lens The Dark Talent The Rithmatist series The Rithmatist Other books by Brandon Sanderson The Reckoners Steelheart Firefight Calamity At the Publisher's request, this title is being sold without Digital Rights Management Software (DRM) applied.",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9780765399830"
+                    },
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "0765399830"
+                    }
+                ],
+                "readingModes": {
+                    "text": true,
+                    "image": false
+                },
+                "pageCount": 1409,
+                "printType": "BOOK",
+                "categories": [
+                    "Fiction"
+                ],
+                "averageRating": 5,
+                "ratingsCount": 3,
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": true,
+                "contentVersion": "2.21.21.0.preview.2",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=VsT3DQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=VsT3DQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com/books?id=VsT3DQAAQBAJ&printsec=frontcover&dq=stormlight+inauthor:sanderson&hl=&cd=8&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=VsT3DQAAQBAJ&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=VsT3DQAAQBAJ"
+            },
+            "saleInfo": {
+                "country": "US",
+                "saleability": "FOR_SALE",
+                "isEbook": true,
+                "listPrice": {
+                    "amount": 9.99,
+                    "currencyCode": "USD"
+                },
+                "retailPrice": {
+                    "amount": 9.99,
+                    "currencyCode": "USD"
+                },
+                "buyLink": "https://play.google.com/store/books/details?id=VsT3DQAAQBAJ&rdid=book-VsT3DQAAQBAJ&rdot=1&source=gbs_api",
+                "offers": [
+                    {
+                        "finskyOfferType": 1,
+                        "listPrice": {
+                            "amountInMicros": 9990000,
+                            "currencyCode": "USD"
+                        },
+                        "retailPrice": {
+                            "amountInMicros": 9990000,
+                            "currencyCode": "USD"
+                        },
+                        "giftable": true
+                    }
+                ]
+            },
+            "accessInfo": {
+                "country": "US",
+                "viewability": "PARTIAL",
+                "embeddable": true,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": true
+                },
+                "pdf": {
+                    "isAvailable": false
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=VsT3DQAAQBAJ&hl=&source=gbs_api",
+                "accessViewStatus": "SAMPLE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "Other Tor books by Brandon Sanderson The Cosmere The Stormlight Archive The Way of Kings Words of Radiance Edgedancer (Novella) Oathbringer The Mistborn trilogy Mistborn: The Final Empire The Well of Ascension The Hero of Ages Mistborn: The ..."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "dTUAAQAAQBAJ",
+            "etag": "ibHWEENdEHA",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/dTUAAQAAQBAJ",
+            "volumeInfo": {
+                "title": "Words of Radiance",
+                "subtitle": "The Stormlight Archive Book Two",
+                "authors": [
+                    "Brandon Sanderson"
+                ],
+                "publisher": "Hachette UK",
+                "publishedDate": "2014-03-06",
+                "description": "'Sanderson is an evil genius' RT Book Reviews From the bestselling author who completed Robert Jordan's epic WHEEL OF TIME series comes a new, original creation that matches anything else in modern fantasy for epic scope, thrilling imagination, superb characters and sheer addictiveness. Return to a planet swept by apocalyptic storms, a world tipping into war as aristocratic families move to control the shard blades and shard plates, ancient artifacts from a past civilisation that can win wars. As the world tips into a war for control of the mythical artifacts of power made from Shard, characters are swept up into new dangers which will threaten their integrity and their lives. Huge, ideas-filled, world-spanning fantasy from a master of the genre.",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9780575097438"
+                    },
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "0575097434"
+                    }
+                ],
+                "readingModes": {
+                    "text": true,
+                    "image": false
+                },
+                "pageCount": 1364,
+                "printType": "BOOK",
+                "categories": [
+                    "Fiction"
+                ],
+                "averageRating": 5,
+                "ratingsCount": 3,
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": true,
+                "contentVersion": "2.12.13.0.preview.2",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=dTUAAQAAQBAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=dTUAAQAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com/books?id=dTUAAQAAQBAJ&dq=stormlight+inauthor:sanderson&hl=&cd=9&source=gbs_api",
+                "infoLink": "http://books.google.com/books?id=dTUAAQAAQBAJ&dq=stormlight+inauthor:sanderson&hl=&source=gbs_api",
+                "canonicalVolumeLink": "https://books.google.com/books/about/Words_of_Radiance.html?hl=&id=dTUAAQAAQBAJ"
+            },
+            "saleInfo": {
+                "country": "US",
+                "saleability": "NOT_FOR_SALE",
+                "isEbook": false
+            },
+            "accessInfo": {
+                "country": "US",
+                "viewability": "NO_PAGES",
+                "embeddable": false,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": true
+                },
+                "pdf": {
+                    "isAvailable": true
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=dTUAAQAAQBAJ&hl=&source=gbs_api",
+                "accessViewStatus": "NONE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "&#39;Sanderson is an evil genius&#39; RT Book Reviews From the bestselling author who completed Robert Jordan&#39;s epic WHEEL OF TIME series comes a new, original creation that matches anything else in modern fantasy for epic scope, thrilling ..."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "ibu-EAAAQBAJ",
+            "etag": "eMLoJ3KNves",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/ibu-EAAAQBAJ",
+            "volumeInfo": {
+                "title": "The Stormlight Archive, Books 1-4",
+                "subtitle": "The Way of Kings, Words of Radiance, Oathbringer, Rhythm of War",
+                "authors": [
+                    "Brandon Sanderson"
+                ],
+                "publisher": "Tor Books",
+                "publishedDate": "2023-05-30",
+                "description": "This Stormlight Archive discounted ebundle includes: The Way of Kings, Words of Radiance, Oathbringer, and Rhythm of War. The #1 New York Times bestselling epic fantasy series by Brandon Sanderson! The Stormlight Archive is the wildly imaginative epic fantasy from New York Times bestselling author Brandon Sanderson: welcome to the remarkable world of Roshar, a world of stone and storms. Uncanny tempests of incredible power sweep across the rocky terrain so frequently that they have shaped ecology and civilization alike. Roshar is shared by humans and the enigmatic, humanoid Parshendi, with whom they are at war. It has been centuries since the fall of the ten consecrated orders known as the Knights Radiant, but their Shardblades and Shardplate remain. Men trade kingdoms for Shardblades. Wars were fought for them, and won by them, but in the war against the Parshendi, the ancient weapons and armor may not be enough. Speak again the ancient oaths: Life before death. Strength before weakness. Journey before Destination. and return to men the Shards they once bore. The Knights Radiant must stand again. --- Other Tor books by Brandon Sanderson The Cosmere The Stormlight Archive The Way of Kings Words of Radiance Edgedancer (Novella) Oathbringer Dawnshard (Novella) Rhythm of War Mistborn: The Original Trilogy Mistborn The Well of Ascension The Hero of Ages Mistborn: The Wax and Wayne series Alloy of Law Shadows of Self Bands of Mourning The Lost Metal Collection Arcanum Unbounded Other Cosmere novels Elantris Warbreaker Tress and the Emerald Sea (forthcoming) Yumi and the Nightmare Painter (forthcoming) The Sunlit Man (forthcoming) The Alcatraz vs. the Evil Librarians series Alcatraz vs. the Evil Librarians The Scrivener's Bones The Knights of Crystallia The Shattered Lens The Dark Talent Bastille vs. the Evil Librarians (co-authored with Janci Patterson) The Rithmatist series The Rithmatist Other novels Legion: The Many Lives of Stephen Leeds The Frugal Wizard’s Handbook for Surviving Medieval England (forthcoming) Other books by Brandon Sanderson The Reckoners Steelheart Firefight Calamity Skyward Skyward Starsight Cytonic At the Publisher's request, this title is being sold without Digital Rights Management Software (DRM) applied.",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9781250334022"
+                    },
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "1250334020"
+                    }
+                ],
+                "readingModes": {
+                    "text": true,
+                    "image": false
+                },
+                "pageCount": 7865,
+                "printType": "BOOK",
+                "categories": [
+                    "Fiction"
+                ],
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": true,
+                "contentVersion": "2.4.4.0.preview.2",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=ibu-EAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=ibu-EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com/books?id=ibu-EAAAQBAJ&printsec=frontcover&dq=stormlight+inauthor:sanderson&hl=&cd=10&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=ibu-EAAAQBAJ&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=ibu-EAAAQBAJ"
+            },
+            "saleInfo": {
+                "country": "US",
+                "saleability": "FOR_SALE",
+                "isEbook": true,
+                "listPrice": {
+                    "amount": 30.37,
+                    "currencyCode": "USD"
+                },
+                "retailPrice": {
+                    "amount": 30.37,
+                    "currencyCode": "USD"
+                },
+                "buyLink": "https://play.google.com/store/books/details?id=ibu-EAAAQBAJ&rdid=book-ibu-EAAAQBAJ&rdot=1&source=gbs_api",
+                "offers": [
+                    {
+                        "finskyOfferType": 1,
+                        "listPrice": {
+                            "amountInMicros": 30370000,
+                            "currencyCode": "USD"
+                        },
+                        "retailPrice": {
+                            "amountInMicros": 30370000,
+                            "currencyCode": "USD"
+                        },
+                        "giftable": true
+                    }
+                ]
+            },
+            "accessInfo": {
+                "country": "US",
+                "viewability": "PARTIAL",
+                "embeddable": true,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": true
+                },
+                "pdf": {
+                    "isAvailable": false
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=ibu-EAAAQBAJ&hl=&source=gbs_api",
+                "accessViewStatus": "SAMPLE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "--- Other Tor books by Brandon Sanderson The Cosmere The Stormlight Archive The Way of Kings Words of Radiance Edgedancer (Novella) Oathbringer Dawnshard (Novella) Rhythm of War Mistborn: The Original Trilogy Mistborn The Well of Ascension ..."
+            }
+        }
+    ]
+}
