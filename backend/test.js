@@ -40,3 +40,5 @@ naturalLanguageUnderstanding.analyze(analyzeParams)
   .catch(err => {
     console.log('error:', err);
   });
+
+  module.export=naturalLanguageUnderstanding;
