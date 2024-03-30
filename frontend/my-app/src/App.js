@@ -7,7 +7,8 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Book Sentiment-Based Playlist Generator</h1>
+        <h1>BookBeats</h1>
+        <h4>Playlists for Your Books!</h4>
       </header>
       <BookSearch />
       <PlaylistDisplay />
