@@ -2,18 +2,14 @@ const express = require('express');
 const axios = require('axios');
 const router = express.Router();
 require('dotenv').config();
+
+const aToken = require('./sptfyControl.js');
+const watson = require('./watsonControl.js');
+
+
 /*Get spotify access token*/
-let aToken;
-axios.post('https://accounts.spotify.com/api/token', 
-    'grant_type=client_credentials&client_id='+process.env.SPTFY_CLIENT_ID+'&client_secret='+process.env.SPTFY_CLIENT_SECRET+'', {
-    headers: {
-      'Content-Type': 'application/x-www-form-urlencoded'
-    }
-}).then(function (response) {
-    aToken=response.data.access_token;
-}).catch(function (error) {
-    console.error(error);
-});
 
+/*Google books API barely needs anything 
+https://www.googleapis.com/books/v1/volumes?q=stormlight+inauthor:sanderson&key=AIzaSyBprmOjBfGb6P3J2ivZ_58hvpZVLeI7AmA */
 
-module.exports = {router,aToken};
+module.exports = router;

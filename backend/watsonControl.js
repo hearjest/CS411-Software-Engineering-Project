@@ -20,7 +20,7 @@ const analyzeParams = {
           }
     }
   };
-
+/*
 naturalLanguageUnderstanding.analyze(analyzeParams)
   .then(analysisResults => {
     console.log(JSON.stringify(analysisResults, null, 2));
@@ -39,6 +39,6 @@ naturalLanguageUnderstanding.analyze(analyzeParams)
   })
   .catch(err => {
     console.log('error:', err);
-  });
+  });*/
 
-  module.export=naturalLanguageUnderstanding;
+  module.exports=naturalLanguageUnderstanding;
