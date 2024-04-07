@@ -1,0 +1,641 @@
+{
+  "status": 200,
+  "statusText": "OK",
+  "headers": {
+    "server": "watson-gateway",
+    "content-length": "12962",
+    "content-type": "application/json; charset=utf-8",
+    "cache-control": "no-cache, no-store",
+    "x-dp-watson-tran-id": "c3a2f3a6-2268-49ba-8277-7b44c90f436b, c3a2f3a6-2268-49ba-8277-7b44c90f436b",
+    "content-security-policy": "default-src 'none'",
+    "pragma": "no-cache",
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "DENY",
+    "x-xss-protection": "1; mode=block",
+    "strict-transport-security": "max-age=31536000; includeSubDomains;",       
+    "x-request-id": "c3a2f3a6-2268-49ba-8277-7b44c90f436b",
+    "x-global-transaction-id": "c3a2f3a6-2268-49ba-8277-7b44c90f436b",
+    "x-edgeconnect-midmile-rtt": "41",
+    "x-edgeconnect-origin-mex-latency": "1561",
+    "date": "Sun, 07 Apr 2024 18:15:58 GMT",
+    "connection": "keep-alive"
+  },
+  "result": {
+    "usage": {
+      "text_units": 1,
+      "text_characters": 2560,
+      "features": 1
+    },
+    "language": "en",
+    "keywords": [
+      {
+        "text": "Mistborn trilogy Mistborn",
+        "relevance": 0.612545,
+        "emotion": {
+          "sadness": 0.141119,
+          "joy": 0.138935,
+          "fear": 0.051174,
+          "disgust": 0.018224,
+          "anger": 0.090863
+        },
+        "count": 1
+      },
+      {
+        "text": "distinctly uncommon threat of the Assassin",
+        "relevance": 0.610486,
+        "emotion": {
+          "sadness": 0.183181,
+          "joy": 0.061683,
+          "fear": 0.220038,
+          "disgust": 0.00667,
+          "anger": 0.065764
+        },
+        "count": 1
+      },
+      {
+        "text": "author Brandon Sanderson",
+        "relevance": 0.605914,
+        "emotion": {
+          "sadness": 0.126718,
+          "joy": 0.350097,
+          "fear": 0.016226,
+          "disgust": 0.014393,
+          "anger": 0.072569
+        },
+        "count": 1
+      },
+      {
+        "text": "Evil Librarians series Alcatraz",
+        "relevance": 0.588991,
+        "emotion": {
+          "sadness": 0.141119,
+          "joy": 0.138935,
+          "fear": 0.051174,
+          "disgust": 0.018224,
+          "anger": 0.090863
+        },
+        "count": 1
+      },
+      {
+        "text": "prime targets",
+        "relevance": 0.588722,
+        "emotion": {
+          "sadness": 0.111617,
+          "joy": 0.096136,
+          "fear": 0.343628,
+          "disgust": 0.028668,
+          "anger": 0.029579
+        },
+        "count": 1
+      },
+      {
+        "text": "New York Times",
+        "relevance": 0.584893,
+        "emotion": {
+          "sadness": 0.126718,
+          "joy": 0.350097,
+          "fear": 0.016226,
+          "disgust": 0.014393,
+          "anger": 0.072569
+        },
+        "count": 1
+      },
+      {
+        "text": "Stormlight Archive",
+        "relevance": 0.578784,
+        "emotion": {
+          "sadness": 0.133918,
+          "joy": 0.244516,
+          "fear": 0.0337,
+          "disgust": 0.016309,
+          "anger": 0.081716
+        },
+        "count": 1
+      },
+      {
+        "text": "Words of Radiance",
+        "relevance": 0.571295,
+        "emotion": {
+          "sadness": 0.133918,
+          "joy": 0.244516,
+          "fear": 0.0337,
+          "disgust": 0.016309,
+          "anger": 0.081716
+        },
+        "count": 1
+      },
+      {
+        "text": "command of the royal bodyguards",
+        "relevance": 0.567671,
+        "emotion": {
+          "sadness": 0.438412,
+          "joy": 0.002443,
+          "fear": 0.028239,
+          "disgust": 0.037081,
+          "anger": 0.559469
+        },
+        "count": 1
+      },
+      {
+        "text": "Tor books",
+        "relevance": 0.563984,
+        "emotion": {
+          "sadness": 0.141119,
+          "joy": 0.138935,
+          "fear": 0.051174,
+          "disgust": 0.018224,
+          "anger": 0.090863
+        },
+        "count": 1
+      },
+      {
+        "text": "Way of Kings",
+        "relevance": 0.5579,
+        "emotion": {
+          "sadness": 0.133918,
+          "joy": 0.244516,
+          "fear": 0.0337,
+          "disgust": 0.016309,
+          "anger": 0.081716
+        },
+        "count": 1
+      },
+      {
+        "text": "Elantris Warbreaker The Alcatraz",
+        "relevance": 0.555468,
+        "emotion": {
+          "sadness": 0.141119,
+          "joy": 0.138935,
+          "fear": 0.051174,
+          "disgust": 0.018224,
+          "anger": 0.090863
+        },
+        "count": 1
+      },
+      {
+        "text": "possible consequences",
+        "relevance": 0.549162,
+        "emotion": {
+          "sadness": 0.072147,
+          "joy": 0.067072,
+          "fear": 0.24548,
+          "disgust": 0.169801,
+          "anger": 0.041099
+        },
+        "count": 1
+      },
+      {
+        "text": "Way of Kings Words of Radiance Edgedancer",
+        "relevance": 0.5415,
+        "emotion": {
+          "sadness": 0.141119,
+          "joy": 0.138935,
+          "fear": 0.051174,
+          "disgust": 0.018224,
+          "anger": 0.090863
+        },
+        "count": 1
+      },
+      {
+        "text": "Rithmatist series",
+        "relevance": 0.538885,
+        "emotion": {
+          "sadness": 0.141119,
+          "joy": 0.138935,
+          "fear": 0.051174,
+          "disgust": 0.018224,
+          "anger": 0.090863
+        },
+        "count": 1
+      },
+      {
+        "text": "Hero of Ages Mistborn",
+        "relevance": 0.537125,
+        "emotion": {
+          "sadness": 0.141119,
+          "joy": 0.138935,
+          "fear": 0.051174,
+          "disgust": 0.018224,
+          "anger": 0.090863
+        },
+        "count": 1
+      },
+      {
+        "text": "Shattered Plains",
+        "relevance": 0.53358,
+        "emotion": {
+          "sadness": 0.826591,
+          "joy": 0.075967,
+          "fear": 0.0567,
+          "disgust": 0.006592,
+          "anger": 0.031481
+        },
+        "count": 1
+      },
+      {
+        "text": "common peril",
+        "relevance": 0.532066,
+        "emotion": {
+          "sadness": 0.183181,
+          "joy": 0.061683,
+          "fear": 0.220038,
+          "disgust": 0.00667,
+          "anger": 0.065764
+        },
+        "count": 1
+      },
+      {
+        "text": "remarkable new powers",
+        "relevance": 0.530759,
+        "emotion": {
+          "sadness": 0.183181,
+          "joy": 0.061683,
+          "fear": 0.220038,
+          "disgust": 0.00667,
+          "anger": 0.065764
+        },
+        "count": 1
+      },
+      {
+        "text": "Rithmatist Other books",
+        "relevance": 0.528281,
+        "emotion": {
+          "sadness": 0.141119,
+          "joy": 0.138935,
+          "fear": 0.051174,
+          "disgust": 0.018224,
+          "anger": 0.090863
+        },
+        "count": 1
+      },
+      {
+        "text": "Final Empire",
+        "relevance": 0.527651,
+        "emotion": {
+          "sadness": 0.141119,
+          "joy": 0.138935,
+          "fear": 0.051174,
+          "disgust": 0.018224,
+          "anger": 0.090863
+        },
+        "count": 1
+      },
+      {
+        "text": "Reckoners Steelheart Firefight Calamity",
+        "relevance": 0.525825,
+        "emotion": {
+          "sadness": 0.141119,
+          "joy": 0.138935,
+          "fear": 0.051174,
+          "disgust": 0.018224,
+          "anger": 0.090863
+        },
+        "count": 1
+      },
+      {
+        "text": "Well of Ascension",
+        "relevance": 0.525426,
+        "emotion": {
+          "sadness": 0.141119,
+          "joy": 0.138935,
+          "fear": 0.051174,
+          "disgust": 0.018224,
+          "anger": 0.090863
+        },
+        "count": 1
+      },
+      {
+        "text": "miserable death of a military slave",
+        "relevance": 0.52476,
+        "emotion": {
+          "sadness": 0.438412,
+          "joy": 0.002443,
+          "fear": 0.028239,
+          "disgust": 0.037081,
+          "anger": 0.559469
+        },
+        "count": 1
+      },
+      {
+        "text": "Assassins master",
+        "relevance": 0.523545,
+        "emotion": {
+          "sadness": 0.170387,
+          "joy": 0.196549,
+          "fear": 0.067829,
+          "disgust": 0.011948,
+          "anger": 0.126508
+        },
+        "count": 1
+      },
+      {
+        "text": "years of Alethi attacks",
+        "relevance": 0.520068,
+        "emotion": {
+          "sadness": 0.734311,
+          "joy": 0.008424,
+          "fear": 0.287118,
+          "disgust": 0.021259,
+          "anger": 0.043634
+        },
+        "count": 1
+      },
+      {
+        "text": "Scriveners Bones",
+        "relevance": 0.518264,
+        "emotion": {
+          "sadness": 0.141119,
+          "joy": 0.138935,
+          "fear": 0.051174,
+          "disgust": 0.018224,
+          "anger": 0.090863
+        },
+        "count": 1
+      },
+      {
+        "text": "Knights of Crystallia",
+        "relevance": 0.51702,
+        "emotion": {
+          "sadness": 0.141119,
+          "joy": 0.138935,
+          "fear": 0.051174,
+          "disgust": 0.018224,
+          "anger": 0.090863
+        },
+        "count": 1
+      },
+      {
+        "text": "Dark Talent",
+        "relevance": 0.513803,
+        "emotion": {
+          "sadness": 0.141119,
+          "joy": 0.138935,
+          "fear": 0.051174,
+          "disgust": 0.018224,
+          "anger": 0.090863
+        },
+        "count": 1
+      },
+      {
+        "text": "war",
+        "relevance": 0.513522,
+        "emotion": {
+          "sadness": 0.452349,
+          "joy": 0.102487,
+          "fear": 0.177473,
+          "disgust": 0.016603,
+          "anger": 0.085071
+        },
+        "count": 1
+      },
+      {
+        "text": "Assassin",
+        "relevance": 0.51322,
+        "emotion": {
+          "sadness": 0.194041,
+          "joy": 0.083876,
+          "fear": 0.195652,
+          "disgust": 0.012977,
+          "anger": 0.060261
+        },
+        "count": 1
+      },
+      {
+        "text": "secrets",
+        "relevance": 0.513015,
+        "emotion": {
+          "sadness": 0.780525,
+          "joy": 0.101142,
+          "fear": 0.054623,
+          "disgust": 0.005175,
+          "anger": 0.030431
+        },
+        "count": 1
+      },
+      {
+        "text": "king",
+        "relevance": 0.511949,
+        "emotion": {
+          "sadness": 0.183181,
+          "joy": 0.061683,
+          "fear": 0.220038,
+          "disgust": 0.00667,
+          "anger": 0.065764
+        },
+        "count": 1
+      },
+      {
+        "text": "Evil Librarians",
+        "relevance": 0.511658,
+        "emotion": {
+          "sadness": 0.141119,
+          "joy": 0.138935,
+          "fear": 0.051174,
+          "disgust": 0.018224,
+          "anger": 0.090863
+        },
+        "count": 1
+      },
+      {
+        "text": "enemies",
+        "relevance": 0.510588,
+        "emotion": {
+          "sadness": 0.438412,
+          "joy": 0.002443,
+          "fear": 0.028239,
+          "disgust": 0.037081,
+          "anger": 0.559469
+        },
+        "count": 1
+      },
+      {
+        "text": "role",
+        "relevance": 0.510278,
+        "emotion": {
+          "sadness": 0.170387,
+          "joy": 0.196549,
+          "fear": 0.067829,
+          "disgust": 0.011948,
+          "anger": 0.126508
+        },
+        "count": 1
+      },
+      {
+        "text": "heart of the Shattered Plains",
+        "relevance": 0.510122,
+        "emotion": {
+          "sadness": 0.872657,
+          "joy": 0.050791,
+          "fear": 0.058777,
+          "disgust": 0.008009,
+          "anger": 0.032531
+        },
+        "count": 1
+      },
+      {
+        "text": "Novella",
+        "relevance": 0.510066,
+        "emotion": {
+          "sadness": 0.141119,
+          "joy": 0.138935,
+          "fear": 0.051174,
+          "disgust": 0.018224,
+          "anger": 0.090863
+        },
+        "count": 1
+      },
+      {
+        "text": "Wax",
+        "relevance": 0.509904,
+        "emotion": {
+          "sadness": 0.141119,
+          "joy": 0.138935,
+          "fear": 0.051174,
+          "disgust": 0.018224,
+          "anger": 0.090863
+        },
+        "count": 1
+      },
+      {
+        "text": "ways",
+        "relevance": 0.509102,
+        "emotion": {
+          "sadness": 0.359957,
+          "joy": 0.029047,
+          "fear": 0.038721,
+          "disgust": 0.008337,
+          "anger": 0.087533
+        },
+        "count": 1
+      },
+      {
+        "text": "numbers",
+        "relevance": 0.507996,
+        "emotion": {
+          "sadness": 0.734311,
+          "joy": 0.008424,
+          "fear": 0.287118,
+          "disgust": 0.021259,
+          "anger": 0.043634
+        },
+        "count": 1
+      },
+      {
+        "text": "immersive fantasy epic",
+        "relevance": 0.507056,
+        "emotion": {
+          "sadness": 0.126718,
+          "joy": 0.350097,
+          "fear": 0.016226,
+          "disgust": 0.014393,
+          "anger": 0.072569
+        },
+        "count": 1
+      },
+      {
+        "text": "reason",
+        "relevance": 0.506879,
+        "emotion": {
+          "sadness": 0.170387,
+          "joy": 0.196549,
+          "fear": 0.067829,
+          "disgust": 0.011948,
+          "anger": 0.126508
+        },
+        "count": 1
+      },
+      {
+        "text": "return of the legendary Voidbringers",
+        "relevance": 0.506581,
+        "emotion": {
+          "sadness": 0.359957,
+          "joy": 0.029047,
+          "fear": 0.038721,
+          "disgust": 0.008337,
+          "anger": 0.087533
+        },
+        "count": 1
+      },
+      {
+        "text": "title",
+        "relevance": 0.505433,
+        "emotion": {
+          "sadness": 0.141119,
+          "joy": 0.138935,
+          "fear": 0.051174,
+          "disgust": 0.018224,
+          "anger": 0.090863
+        },
+        "count": 1
+      },
+      {
+        "text": "rulers",
+        "relevance": 0.505344,
+        "emotion": {
+          "sadness": 0.204901,
+          "joy": 0.106068,
+          "fear": 0.171266,
+          "disgust": 0.019285,
+          "anger": 0.054757
+        },
+        "count": 1
+      },
+      {
+        "text": "Highprince Dalinar",
+        "relevance": 0.504877,
+        "emotion": {
+          "sadness": 0.111617,
+          "joy": 0.096136,
+          "fear": 0.343628,
+          "disgust": 0.028668,
+          "anger": 0.029579
+        },
+        "count": 1
+      },
+      {
+        "text": "Shattered Lens",
+        "relevance": 0.50401,
+        "emotion": {
+          "sadness": 0.141119,
+          "joy": 0.138935,
+          "fear": 0.051174,
+          "disgust": 0.018224,
+          "anger": 0.090863
+        },
+        "count": 1
+      },
+      {
+        "text": "humans",
+        "relevance": 0.503355,
+        "emotion": {
+          "sadness": 0.072147,
+          "joy": 0.067072,
+          "fear": 0.24548,
+          "disgust": 0.169801,
+          "anger": 0.041099
+        },
+        "count": 1
+      },
+      {
+        "text": "Brandon Sanderson",
+        "relevance": 0.503191,
+        "emotion": {
+          "sadness": 0.136319,
+          "joy": 0.209322,
+          "fear": 0.039525,
+          "disgust": 0.016947,
+          "anger": 0.084765
+        },
+        "count": 1
+      }
+    ]
+  }
+}
+[
+  [ 'sadness', 12.045736999999995 ],
+  [ 'joy', 6.398323000000001 ],
+  [ 'fear', 4.87435 ],
+  [ 'disgust', 1.1538470000000005 ],
+  [ 'anger', 5.293225999999999 ]
+]
+
