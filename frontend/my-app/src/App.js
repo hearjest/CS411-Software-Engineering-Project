@@ -15,5 +15,7 @@ function App() {
     </div>
   );
 }
-
+//use passportjs first, return a true or false, check with ternary
+// ternary if else " : ?
+//
 export default App;
