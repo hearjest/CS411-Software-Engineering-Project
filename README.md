@@ -6,10 +6,3 @@
 ### APIs: Google Books, Spotify, Sentiment analysis
 ### 3rd Party Auth Method: Oauth
 ### Architecture: Front: React, Back: node.js
-
-## **Project Proposal 2:**
-### Description: Gathers weather and takes into account of clothing the user has put in and grabs inspiration posts from Pinterest. not sure if this works
-### Database:mySql
-### APIs: weather-api, pinterest
-### 3rd Party Auth Method: Oauth
-### Architecture: Front: React, Back: node.js
