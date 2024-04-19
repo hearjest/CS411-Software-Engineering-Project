@@ -12,6 +12,7 @@ const watson = require('./watsonControl.js');
 
 /*Google books API barely needs anything 
 https://www.googleapis.com/books/v1/volumes?q=stormlight+inauthor:sanderson&key=AIzaSyBprmOjBfGb6P3J2ivZ_58hvpZVLeI7AmA */
+
 passport.serializeUser(function(user, done) {
   done(null, user);
 });
@@ -27,6 +28,7 @@ passport.use(new GitHubStrategy({
   },
   function(accessToken, refreshToken, profile, done) {
     User.findOrCreate({ githubId: profile.id }, function (err, user) {
+      print(user);
       return done(err, user);
     });
   }

@@ -36,6 +36,9 @@ function BookSearch() {
 
   return (
     <div>
+      <div>Login
+       <a href="http://localhost:4000/auth/github">Login with GitHub</a>
+      </div>
       <form onSubmit={handleSearch}>
         <input
           type="text"
