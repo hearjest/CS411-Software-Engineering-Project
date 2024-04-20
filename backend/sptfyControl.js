@@ -9,7 +9,7 @@ axios.post('https://accounts.spotify.com/api/token',
     }
 }).then(function (response) {
     aToken=response.data.access_token;
-    console.log("Spotify access token:"+aToken)
+  //  console.log("Spotify access token:"+aToken)
 }).catch(function (error) {
     console.error(error);
 });
