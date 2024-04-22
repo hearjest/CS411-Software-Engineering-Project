@@ -9,8 +9,13 @@ const connection=mysql.createPool({
 
 async function login(id,username,password,name,lastname){
     //Check for user
-    const res = await connection.query("SELECT * WHERE id = ?",id)
-    console.log(res)
+
+    const res = await connection.query("SELECT * FROM users WHERE id = ?",id)
+    if(res[0].length==0){
+        await registerUser(id,username,password,name,lastname)
+    }else{
+        console.log("LOG 'EM IN TEX!!!!")
+    }
 }
 
 async function registerUser(id,username,password,name,lastname){

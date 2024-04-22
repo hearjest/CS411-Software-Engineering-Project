@@ -51,11 +51,15 @@ passport.use(new GitHubStrategy({
   clientID: process.env.GITHUB_CLIENT_ID,
   clientSecret: process.env.GITHUB_CLIENT_SECRET,
   callbackURL: 'http://localhost:4000/auth/github/callback'
-}, (accessToken, refreshToken, profile, done) => {
+}, async (accessToken, refreshToken, profile, done) => {
   // Find or create user in your database
   // For demonstration purposes, we'll just return the profile
   console.log("adwiadawda")
-  console.log(JSON.stringify(profile, null, 2));  
+  data=JSON.parse(JSON.stringify(profile, null, 2))
+  console.log(data.id);  
+  console.log(data.displayName);  
+  console.log(data.username);  
+  const res = await db.login(data.id,data.username,"a",data.displayName,"lastname!")
   return done(null, profile);
 }));
 
