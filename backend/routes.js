@@ -102,10 +102,9 @@ router.get('/api/search-books/:sTerms',async(req,res)=>{
   console.log(searchTerms)
   try{
     const result = await axios.get("https://www.googleapis.com/books/v1/volumes?q="+searchTerms+"&key="+process.env.GOOGLEBOOKSKEY)
-    res.status(200);
     const books=result.data.items
-    console.log(books)
-    return books || [];
+  console.log(books)
+  res.status(200).json(books)
   }catch(err){
     console.log("HELP")
     console.log(err);

@@ -4,7 +4,7 @@ function BookSearch() {
   const [query, setQuery] = useState('');
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
-  const [books, setBooks] = useState([]);
+  let [books, setBooks] = useState([]);
 
   const handleSearch = async (e) => {
     e.preventDefault(); // Prevent the form from refreshing the page
@@ -18,10 +18,10 @@ function BookSearch() {
       if (!response.ok) {
         throw new Error('Problem fetching books');
       }
-
-      const data = await response.json();
-      setBooks(data.books); // Adjust according to the structure of your response
+      const thing = await response.json()
+      setBooks(thing); // Adjust according to the structure of your response
     } catch (error) {
+      console.log("FUCKED UP")
       setError(error.message);
     } finally {
       setLoading(false);
@@ -47,9 +47,9 @@ function BookSearch() {
 
       {error && <div style={{ color: 'red' }}>Error: {error}</div>}
 
-      <ul>
-        {books.map((book, index) => (
-          <li key={index}>{book.title} - {book.author}</li> // Customize based on your book object structure
+      <ul id="bookList">
+        {books.map((book) => (
+          <li key={book.id}>{book.volumeInfo.title} - {book.volumeInfo.description}</li> // Customize based on your book object structure
         ))}
       </ul>
     </div>
