@@ -96,4 +96,19 @@ router.post('/register',async (req,res)=>{
     res.status(400).json({err: err.message})
   }
 })
+
+router.get('/api/search-books/:sTerms',async(req,res)=>{
+  const searchTerms=req.params.sTerms
+  console.log(searchTerms)
+  try{
+    const result = await axios.get("https://www.googleapis.com/books/v1/volumes?q="+searchTerms+"&key="+process.env.GOOGLEBOOKSKEY)
+    res.status(200);
+    const books=result.data.items
+    console.log(books)
+    return books || [];
+  }catch(err){
+    console.log("HELP")
+    console.log(err);
+  }
+})
 module.exports = router;

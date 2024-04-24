@@ -11,15 +11,9 @@ function BookSearch() {
     setLoading(true);
     setError('');
     setBooks([]);
-
     try {
-      const response = await fetch('/api/search-books', {
-        method: 'POST', // or 'GET', depending on your backend setup
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({ query }), // Ensure your backend expects the query in this format
-      });
+      const response = await fetch('/api/search-books/'+query,{
+        method: "GET"});
 
       if (!response.ok) {
         throw new Error('Problem fetching books');
@@ -36,7 +30,7 @@ function BookSearch() {
 
   return (
     <div>
-      <div>Login
+      <div>
        <a href="http://localhost:4000/auth/github">Login with GitHub</a>
       </div>
       <form onSubmit={handleSearch}>
