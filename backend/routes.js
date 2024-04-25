@@ -155,7 +155,7 @@ router.get('/api/retrieve-book/:id',async(req,res)=>{
       console.log("Energy = "+energy);
       console.log("Valence = " + valence);
       //FOR SPOTIFY, USE SOUNDTRACK GENRE
-      res.status(200).json(counter)
+      res.status(200).json([energy,valence])
     })
     .catch(err => {
       console.log('error:', err);
@@ -180,32 +180,31 @@ function getPercentages(counter){
   return [sum,percentages]
 }
 
-router.post('/api/spotify/reccomendations',(req,res)=>{
-  let counter=req.body.counterArray;
-  console.log(counter)
-  //Calculations...
-  let sum=0;
-  counter.forEach((emotion)=>{
-    sum=sum+emotion[1]
-  })
-  console.log("Sum: "+sum);
-  let percentages=[];
-  counter.foreach((emotion)=>{
-    percentages.push([emotion[0],emotion[1]/sum]);
-  })
-  console.log("Percentages: " + percentages)
-
-  /*const result = axios.get('https://api.spotify.com/v1/recommendations',{
+router.get('/api/spotify/reccomendations/:energy/:valence',async (req,res)=>{
+  let energy=req.params.energy;
+  let valence=req.params.valence;
+  console.log(energy)
+  console.log(valence)
+  console.log("HERERERER")
+  try{
+   const result = await axios.get('https://api.spotify.com/v1/recommendations',{
     params:{
-      'seed_genre':'soundtracks',
-      'instrumentalness':0.75,
-      'energy':0,
-      'valence':0
+      'seed_genres':'soundtracks',
+      'target_instrumentalness':0.75,
+      'target_energy':energy,
+      'target_valence':valence
     },
     headers:{
-      'Authorization':'Bearer '+process.env.aToken
+      'Authorization':'Bearer '+aToken
     }
-  });*/
+  });
+  console.log(result.data.items)
+    res.status(200).json(result.data.items) 
+  }catch(err){
+    console.log(err);
+    console.log("Messed up in retrieving songs recs from spotify")
+  }
+  
 })
 
 module.exports = router;
