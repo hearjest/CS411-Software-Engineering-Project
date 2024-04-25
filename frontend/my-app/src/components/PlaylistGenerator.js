@@ -1,13 +1,14 @@
+// PlaylistGenerator.js
 import React from 'react';
 
-function PlaylistGenerator(props) {
-  const book = props.location.state.selectedBook; // Access the passed book data
+const PlaylistGenerator = ({ selectedBook }) => {
+  // Placeholder for playlist content. You'll fetch and display the playlist here.
   return (
-    <div>
-      <h1>Playlist for {book.volumeInfo.title}</h1>
-      {/* Further implementation */}
+    <div className="playlist-container">
+      <h2>Generated Playlist for {selectedBook.volumeInfo.title}</h2>
+      {/* Render the playlist items here */}
     </div>
   );
-}
+};
 
 export default PlaylistGenerator;
