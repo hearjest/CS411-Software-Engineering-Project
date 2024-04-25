@@ -135,9 +135,27 @@ router.get('/api/retrieve-book/:id',async(req,res)=>{
         counter[3][1]+=emo["disgust"]
         counter[4][1]+=emo["anger"]
       })
-      console.log(counter);
+     console.log(counter);
+     console.log(getPercentages(counter))
+     let distributeJoy=(counter[1][1]*(1/2))/4
+     counter[1][1]=counter[1][1]/2
+     let i=0;
+     for(i=0;i<5;i++){
+      if(i!=1){
+        counter[i][1]=counter[i][1]+distributeJoy;
+        console.log(counter[i][1])
+      }
+     }
+     console.log("New counter!!!:")
+     console.log(counter)
+      let[sum,percentages]=getPercentages(counter);
+      console.log("Sum: " + sum + " Percentages: "+ percentages);
+      let energy=percentages[1][1]+percentages[4][1];//Energy=joy+anger
+      let valence=(percentages[1][1]+percentages[4][1])*(percentages[0][1]+percentages[2][1]+percentages[3][1])
+      console.log("Energy = "+energy);
+      console.log("Valence = " + valence);
       //FOR SPOTIFY, USE SOUNDTRACK GENRE
-  
+      res.status(200).json(counter)
     })
     .catch(err => {
       console.log('error:', err);
@@ -148,6 +166,46 @@ router.get('/api/retrieve-book/:id',async(req,res)=>{
     console.log(err);
     console.log("Something went wrong with retrieving book and analyzing it")
   }
+})
+
+function getPercentages(counter){
+  let sum=0;
+  counter.forEach((emotion)=>{
+    sum=sum+emotion[1]
+  })
+  let percentages=[];
+  counter.forEach((emotion)=>{
+    percentages.push([emotion[0],emotion[1]/sum]);
+  })
+  return [sum,percentages]
+}
+
+router.post('/api/spotify/reccomendations',(req,res)=>{
+  let counter=req.body.counterArray;
+  console.log(counter)
+  //Calculations...
+  let sum=0;
+  counter.forEach((emotion)=>{
+    sum=sum+emotion[1]
+  })
+  console.log("Sum: "+sum);
+  let percentages=[];
+  counter.foreach((emotion)=>{
+    percentages.push([emotion[0],emotion[1]/sum]);
+  })
+  console.log("Percentages: " + percentages)
+
+  /*const result = axios.get('https://api.spotify.com/v1/recommendations',{
+    params:{
+      'seed_genre':'soundtracks',
+      'instrumentalness':0.75,
+      'energy':0,
+      'valence':0
+    },
+    headers:{
+      'Authorization':'Bearer '+process.env.aToken
+    }
+  });*/
 })
 
 module.exports = router;
