@@ -4,7 +4,7 @@ const router = express.Router();
 require('dotenv').config();
 const passport = require('passport');
 const GitHubStrategy = require('passport-github2').Strategy;
-const aToken = require('./sptfyControl.js');
+
 const watson = require('./watsonControl.js');
 const session = require('express-session');
 const db=require('./database.js')
@@ -180,26 +180,31 @@ function getPercentages(counter){
   return [sum,percentages]
 }
 
-router.get('/api/spotify/reccomendations/:energy/:valence',async (req,res)=>{
+router.get('/api/spotify',async(req,res)=>{
+  const getAccessToken =  require('./sptfyControl.js').getAccessToken;
+const aToken=await getAccessToken();
+  /*console.log(req.params)
   let energy=req.params.energy;
   let valence=req.params.valence;
   console.log(energy)
-  console.log(valence)
+  console.log(valence)*/
+  
   console.log("HERERERER")
+  console.log("Acess token:" + aToken)
   try{
    const result = await axios.get('https://api.spotify.com/v1/recommendations',{
     params:{
       'seed_genres':'soundtracks',
       'target_instrumentalness':0.75,
-      'target_energy':energy,
-      'target_valence':valence
+      'target_energy':0.56,
+      'target_valence':0.28
     },
     headers:{
       'Authorization':'Bearer '+aToken
     }
   });
-  console.log(result.data.items)
-    res.status(200).json(result.data.items) 
+  console.log(result.data)
+    res.status(200).json(result.data) 
   }catch(err){
     console.log(err);
     console.log("Messed up in retrieving songs recs from spotify")
