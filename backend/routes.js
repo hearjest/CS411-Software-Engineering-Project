@@ -103,11 +103,51 @@ router.get('/api/search-books/:sTerms',async(req,res)=>{
   try{
     const result = await axios.get("https://www.googleapis.com/books/v1/volumes?q="+searchTerms+"&key="+process.env.GOOGLEBOOKSKEY)
     const books=result.data.items
-  console.log(books)
   res.status(200).json(books)
   }catch(err){
     console.log("HELP")
     console.log(err);
   }
 })
+
+router.get('/api/retrieve-book/:id',async(req,res)=>{
+  const id=req.params.id;
+  try{
+    const result=await axios.get("https://www.googleapis.com/books/v1/volumes/"+id)
+    const book=result.data;
+    const analyzeParams = {
+      'html': book.volumeInfo.description,
+      'features': {
+          'keywords': {
+              'emotion': true
+            }
+      }
+    };
+    let counter=[["sadness",0],["joy",0],["fear",0],["disgust",0],["anger",0]];
+    watson.analyze(analyzeParams).then(analysisResults => {
+      console.log(JSON.stringify(analysisResults, null, 2));
+      let emotionsList=analysisResults["result"]["keywords"];
+      emotionsList.forEach((key)=>{
+        emo=key["emotion"]
+        counter[0][1]+=emo["sadness"]
+        counter[1][1]+=emo["joy"]
+        counter[2][1]+=emo["fear"]
+        counter[3][1]+=emo["disgust"]
+        counter[4][1]+=emo["anger"]
+      })
+      console.log(counter);
+      //FOR SPOTIFY, USE SOUNDTRACK GENRE
+  
+    })
+    .catch(err => {
+      console.log('error:', err);
+      console.log("Error analyzing description")
+    });
+
+  }catch(err){
+    console.log(err);
+    console.log("Something went wrong with retrieving book and analyzing it")
+  }
+})
+
 module.exports = router;
