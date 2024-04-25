@@ -183,11 +183,11 @@ function getPercentages(counter){
 router.get('/api/spotify',async(req,res)=>{
   const getAccessToken =  require('./sptfyControl.js').getAccessToken;
 const aToken=await getAccessToken();
-  /*console.log(req.params)
+  console.log(req.params)
   let energy=req.params.energy;
   let valence=req.params.valence;
   console.log(energy)
-  console.log(valence)*/
+  console.log(valence)
   
   console.log("HERERERER")
   console.log("Acess token:" + aToken)
@@ -196,8 +196,8 @@ const aToken=await getAccessToken();
     params:{
       'seed_genres':'soundtracks',
       'target_instrumentalness':0.75,
-      'target_energy':0.56,
-      'target_valence':0.28
+      'target_energy':energy,
+      'target_valence':valence
     },
     headers:{
       'Authorization':'Bearer '+aToken
