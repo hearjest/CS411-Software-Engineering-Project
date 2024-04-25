@@ -1,0 +1,89 @@
+/* BookSearch.css */
+
+/* General styles for the book grid and cards */
+.book-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 16px;
+    padding: 20px;
+  }
+  
+  .book-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    cursor: pointer;
+    transition: box-shadow 0.2s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .book-card:hover {
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  }
+  
+  /* Styles for the image within the book card */
+  .book-image-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+  }
+  
+  /* Styles for book information within the card */
+  .book-info {
+    text-align: center;
+    padding-top: 10px;
+  }
+  
+  .book-title {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 4px;
+  }
+  
+  .book-authors, .book-isbn {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 4px;
+  }
+  
+  /* Styles for the detailed book view */
+  .book-detail-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .book-image-container {
+    grid-row: 1 / -1; /* Makes image span all the rows */
+  }
+  
+  .book-info-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .book-summary-container {
+    grid-column: 1 / -1; /* Makes summary span both columns */
+    padding-top: 20px;
+  }
+  
+  /* Button style */
+  button {
+    margin-top: 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  

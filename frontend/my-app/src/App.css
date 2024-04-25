@@ -1,38 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+
+:root {
+  --primary-color: #5CDB95; /* Example primary color */
+  --secondary-color: #05386B; /* Example secondary color */
+  --background-color: #EDF5E1; /* Lighter background */
+  --text-color: #05386B;
+  --accent-color: #379683; /* Slightly darker variant of primary color for accents */
+}
+
+/* Apply the root colors */
+body, html {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-family: 'Nunito', sans-serif; /* This is a Google font you might choose */
+}
+
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+
+.App-header {
+  background-color: var(--secondary-color);
+  color: #fff;
+  padding: 20px;
+  width: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 .App-link {
-  color: #61dafb;
+  color: var(--primary-color);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+.book-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); /* Adjust the min-width as necessary */
+  gap: 1rem; /* Spacing between cards */
+  padding: 1rem;
+  justify-content: center;
+  align-items: stretch;
+}
+
+
+
+.book-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #fff;
+  color: var(--text-color);
+  padding: 10px;
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.book-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  
+}
+
+.search-container {
+  padding: 20px 0;
+}
+
+.search-container input[type="text"] {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  margin-right: 10px;
+  width: 300px; /* Adjust the width as necessary */
+}
+
+@media (max-width: 1024px) {
+  .book-grid {
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); /* Scales down for smaller screens */
   }
 }
+
+.search-container button {
+  padding: 10px 20px;
+  background-color: #61dafb;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.search-container button:hover {
+  background-color: #4fa8d9;
+}
+
+/* Add more styles for other elements as needed */
