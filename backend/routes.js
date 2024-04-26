@@ -184,8 +184,8 @@ router.get('/api/spotify',async(req,res)=>{
   const getAccessToken =  require('./sptfyControl.js').getAccessToken;
 const aToken=await getAccessToken();
   console.log(req.params)
-  let energy=req.params.energy;
-  let valence=req.params.valence;
+  let energy=req.query.energy;
+  let valence=req.query.valence;
   console.log(energy)
   console.log(valence)
   
