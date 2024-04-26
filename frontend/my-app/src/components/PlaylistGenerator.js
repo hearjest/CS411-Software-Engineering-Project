@@ -28,13 +28,21 @@ const PlaylistGenerator = ({ selectedBook }) => {
     };
 
     fetchPlaylist();
-  }, [selectedBook]); // Trigger the effect when selectedBook changes
+  }, [selectedBook]); 
 
   return (
     <div className="playlist-container">
-      {/* Render the playlist items here using the playlist state */}
+      {playlist.length ? (
+        <ul>
+          {playlist.map((track, index) => (
+            <li key={index}>{track.album.name} by {track.artists.map(artist => artist.name).join(', ')}</li>
+          ))}
+        </ul>
+      ) : (
+        <p>No playlist to display. Search for a book to generate playlist.</p>
+      )}
     </div>
   );
-};
+}  
 
 export default PlaylistGenerator;
