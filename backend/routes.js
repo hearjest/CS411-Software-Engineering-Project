@@ -180,14 +180,13 @@ function getPercentages(counter){
   return [sum,percentages]
 }
 
-router.get('/api/spotify',async(req,res)=>{
+router.get('/api/spotify/',async(req,res)=>{
   const getAccessToken =  require('./sptfyControl.js').getAccessToken;
-const aToken=await getAccessToken();
-  console.log(req.params)
-  let energy=req.params.energy;
-  let valence=req.params.valence;
-  console.log(energy)
-  console.log(valence)
+  const aToken=await getAccessToken();
+  let energy=req.query.energy;
+  let valence=req.query.valence;
+  console.log("energy: "+energy)
+  console.log("valence: " + valence)
   
   console.log("HERERERER")
   console.log("Acess token:" + aToken)
@@ -203,7 +202,7 @@ const aToken=await getAccessToken();
       'Authorization':'Bearer '+aToken
     }
   });
-  console.log(result.data)
+    console.log(result.data)
     res.status(200).json(result.data) 
   }catch(err){
     console.log(err);
