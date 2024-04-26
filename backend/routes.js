@@ -112,6 +112,8 @@ router.get('/api/search-books/:sTerms',async(req,res)=>{
 
 router.get('/api/retrieve-book/:id',async(req,res)=>{
   const id=req.params.id;
+  console.log(`Retrieving book with ID: ${id}`); // Log the book ID
+
   try{
     const result=await axios.get("https://www.googleapis.com/books/v1/volumes/"+id)
     const book=result.data;
@@ -184,8 +186,8 @@ router.get('/api/spotify/',async(req,res)=>{
   const getAccessToken =  require('./sptfyControl.js').getAccessToken;
 const aToken=await getAccessToken();
   console.log(req.params)
-  let energy=req.params.energy;
-  let valence=req.params.valence;
+  let energy=req.query.energy;
+  let valence=req.query.valence;
   console.log(energy)
   console.log(valence)
   

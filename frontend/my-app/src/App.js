@@ -1,11 +1,12 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css';
 import BookSearch from './components/BookSearch';
-import PlaylistDisplay from './components/PlaylistDisplay';
-import PlaylistGenerator from './components/PlaylistGenerator'; // Ensure this is imported
+import PlaylistGenerator from './components/PlaylistGenerator';
 
 function App() {
+  const [selectedBook, setSelectedBook] = useState(null); // State to manage selected book
+
   return (
     <Router>
       <div className="App">
@@ -14,8 +15,12 @@ function App() {
           <h4>Playlists for Your Books!</h4>
         </header>
         <Routes>
-          <Route path="/" element={<><BookSearch /><PlaylistDisplay /></>} />
-          <Route path="/playlist-generator" element={<PlaylistGenerator />} />
+          <Route path="/" element={
+            <>
+              <BookSearch setSelectedBook={setSelectedBook} />
+              <PlaylistGenerator selectedBook={selectedBook} />
+            </>
+          } />
         </Routes>
       </div>
     </Router>

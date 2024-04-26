@@ -1,31 +1,32 @@
 import React, { useState, useEffect } from 'react';
 
+
 const PlaylistGenerator = ({ selectedBook }) => {
   const [playlist, setPlaylist] = useState([]);
   const [error, setError] = useState('');
+  
 
   useEffect(() => {
-    const fetchPlaylist = async () => {
+    async function fetchPlaylist(){
       if (!selectedBook) return;
-      setError(''); // Reset error state
+      setError('');
 
       try {
-        // Fetch sentiment analysis and playlist based on book ID
         let response = await fetch(`/api/retrieve-book/${selectedBook.id}`);
         if (!response.ok) throw new Error('Problem retrieving book details');
         
         const bookDetails = await response.json();
         const { energy, valence } = bookDetails;
-        
-        // Fetch playlist from Spotify with the given energy and valence
+        console.log("energy: "+ energy);
+        console.log("valence: "+valence)
         response = await fetch(`/api/spotify/?energy=${energy}&valence=${valence}`);
         if (!response.ok) throw new Error('Problem retrieving playlist from Spotify');
+        console.log("play")
         
         const playlistData = await response.json();
-        setPlaylist(playlistData); // Make sure this matches the Spotify response structure
+        setPlaylist(playlistData); // Assuming playlist data is correct
       } catch (error) {
         setError(error.message);
-        console.error('Error in fetchPlaylist:', error);
       }
     };
 
@@ -34,18 +35,13 @@ const PlaylistGenerator = ({ selectedBook }) => {
 
   return (
     <div className="playlist-container">
+      <h2>Generated Playlist</h2>
       {error && <p>Error: {error}</p>}
-      {playlist.length ? (
-        <ul>
-          {playlist.map((track) => (
-            <li key={track.id}>
-              {track.name} by {track.artists.map(artist => artist.name).join(', ')}
-            </li>
-          ))}
-        </ul>
-      ) : (
-        <p>No playlist to display. Search for a book to generate playlist.</p>
-      )}
+      <ul>
+        {playlist.map((track) => (
+          <li key={track}>{track.name}</li>
+        ))}
+      </ul>
     </div>
   );
 };
