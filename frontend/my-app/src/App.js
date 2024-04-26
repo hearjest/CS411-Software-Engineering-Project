@@ -17,8 +17,8 @@ function App() {
         <Routes>
           <Route path="/" element={
             <>
-              <BookSearch setSelectedBook={setSelectedBook} />
-              <PlaylistGenerator selectedBook={selectedBook} />
+              <BookSearch selectedBook={selectedBook} setSelectedBook={setSelectedBook} />
+              <PlaylistGenerator setSelectedBook={setSelectedBook} selectedBook={selectedBook} />
             </>
           } />
         </Routes>

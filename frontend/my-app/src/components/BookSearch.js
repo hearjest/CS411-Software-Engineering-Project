@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 import './BookSearch.css'; // Ensure you have the corresponding CSS file
 
-function BookSearch() {
+function BookSearch({selectedBook,setSelectedBook}) {
   const [query, setQuery] = useState('');
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
   const [books, setBooks] = useState([]);
-  const [selectedBook, setSelectedBook] = useState(null);
+
 
   const handleSearch = async (e) => {
     e.preventDefault();

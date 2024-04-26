@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 
 
-const PlaylistGenerator = ({ selectedBook }) => {
+const PlaylistGenerator = ({ selectedBook,setSelectedBook }) => {
   const [playlist, setPlaylist] = useState([]);
   const [error, setError] = useState('');
   
@@ -16,7 +16,9 @@ const PlaylistGenerator = ({ selectedBook }) => {
         if (!response.ok) throw new Error('Problem retrieving book details');
         
         const bookDetails = await response.json();
-        const { energy, valence } = bookDetails;
+        console.log(bookDetails)
+        const energy=bookDetails[0];
+        const valence=bookDetails[1]
         console.log("energy: "+ energy);
         console.log("valence: "+valence)
         response = await fetch(`/api/spotify/?energy=${energy}&valence=${valence}`);
@@ -24,7 +26,7 @@ const PlaylistGenerator = ({ selectedBook }) => {
         console.log("play")
         
         const playlistData = await response.json();
-        setPlaylist(playlistData); // Assuming playlist data is correct
+        setPlaylist(playlistData.tracks); // Assuming playlist data is correct
       } catch (error) {
         setError(error.message);
       }
