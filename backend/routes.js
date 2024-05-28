@@ -186,6 +186,7 @@ function getPercentages(counter){
 router.get('/api/spotify/',async(req,res)=>{
   const getAccessToken =  require('./sptfyControl.js').getAccessToken;
 const aToken=await getAccessToken();
+  console.log(aToken)
   console.log(req.params)
   let energy=req.query.energy;
   let valence=req.query.valence;
