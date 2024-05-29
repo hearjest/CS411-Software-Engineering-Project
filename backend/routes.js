@@ -98,15 +98,17 @@ router.post('/register',async (req,res)=>{
 })
 
 router.get('/api/search-books/:sTerms',async(req,res)=>{
+  console.log("IM ALIVE")
   const searchTerms=req.params.sTerms
   console.log(searchTerms)
   try{
     const result = await axios.get("https://www.googleapis.com/books/v1/volumes?q="+searchTerms+"&key="+process.env.GOOGLEBOOKSKEY)
     const books=result.data.items
-  res.status(200).json(books)
+    console.log(books)
+    res.status(200).json(books)
   }catch(err){
-    console.log("HELP")
-    console.log(err);
+    console.error("Error fetching books:", err);
+    res.status(500).json({ error: "Error fetching books" });
   }
 })
 

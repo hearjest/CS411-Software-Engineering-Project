@@ -1,6 +1,7 @@
+
 import React, { useState } from 'react';
 import './BookSearch.css'; // Ensure you have the corresponding CSS file
-
+const axios = require('axios');
 function BookSearch({selectedBook,setSelectedBook}) {
   const [query, setQuery] = useState('');
   const [loading, setLoading] = useState(false);
@@ -15,13 +16,17 @@ function BookSearch({selectedBook,setSelectedBook}) {
     setBooks([]);
 
     try {
-      const response = await fetch(`/api/search-books/${query}`, {
-        method: "GET"
+      console.log("I'm here!")
+      console.log(query)
+      const response = await fetch(`/api/search-books/${query}`,{
+        method: 'GET',
+        headers: {'Content-Type': 'application/json'}
       });
       if (!response.ok) {
         throw new Error('Problem fetching books');
       }
       const data = await response.json();
+      console.log(data)
       setBooks(data);
     } catch (error) {
       setError(error.message);
