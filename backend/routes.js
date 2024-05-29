@@ -112,6 +112,7 @@ router.get('/api/search-books/:sTerms',async(req,res)=>{
   }
 })
 
+
 router.get('/api/retrieve-book/:id',async(req,res)=>{
   const id=req.params.id;
   console.log(`Retrieving book with ID: ${id}`); // Log the book ID
@@ -187,6 +188,7 @@ function getPercentages(counter){
 router.get('/api/spotify/',async(req,res)=>{
   const getAccessToken =  require('./sptfyControl.js').getAccessToken;
 const aToken=await getAccessToken();
+  console.log(aToken)
   console.log(req.params)
   let energy=req.query.energy;
   let valence=req.query.valence;
