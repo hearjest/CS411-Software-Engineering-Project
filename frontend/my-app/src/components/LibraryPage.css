@@ -1,0 +1,9 @@
+#libraryContent{
+    display:flex;
+    flex-direction: row;
+}
+
+.bookAndPlaylist {
+    width:20%;
+    margin-left: 1%;
+}

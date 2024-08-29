@@ -97,4 +97,21 @@ body, html {
   background-color: #4fa8d9;
 }
 
-/* Add more styles for other elements as needed */
+.playlist-container{
+  width: 80%;  
+}
+
+#song-container ul{
+  display:flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-items: center;
+  
+}
+
+.songbox{
+  display:flex;
+  flex-direction: row;
+  padding-bottom: 20px;
+  
+}

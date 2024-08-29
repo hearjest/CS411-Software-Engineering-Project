@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react';
 import './BookSearch.css'; // Ensure you have the corresponding CSS file
-const axios = require('axios');
+
 function BookSearch({selectedBook,setSelectedBook}) {
   const [query, setQuery] = useState('');
   const [loading, setLoading] = useState(false);
@@ -65,9 +65,7 @@ function BookSearch({selectedBook,setSelectedBook}) {
       ) : (
         // Displaying the search interface and book results
         <div>
-          <div>
-            <a href="http://localhost:4000/auth/github">Login with GitHub</a>
-          </div>
+          
           <form onSubmit={handleSearch}>
             <input
               type="text"

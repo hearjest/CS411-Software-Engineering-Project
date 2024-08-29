@@ -5,11 +5,12 @@ require('dotenv').config();
 const passport = require('passport');
 const GitHubStrategy = require('passport-github2').Strategy;
 
+
 const watson = require('./watsonControl.js');
 const session = require('express-session');
 const db=require('./database.js')
 
-
+let currentUser=-1;
 /*Get spotify access token*/
 
 /*Google books API barely needs anything 
@@ -38,8 +39,7 @@ router.get('/auth',
 router.get('/auth/github-login', 
   passport.authenticate('github', { failureRedirect: '/' }),
   function(req, res) {
-    // Successful authentication, redirect home.
-    res.redirect('/');
+    res.redirect('/search');
   });
   
 router.get('/logout', function(req, res){
@@ -52,14 +52,14 @@ passport.use(new GitHubStrategy({
   clientSecret: process.env.GITHUB_CLIENT_SECRET,
   callbackURL: 'http://localhost:4000/auth/github/callback'
 }, async (accessToken, refreshToken, profile, done) => {
-  // Find or create user in your database
-  // For demonstration purposes, we'll just return the profile
   console.log("adwiadawda")
   data=JSON.parse(JSON.stringify(profile, null, 2))
   console.log(data.id);  
   console.log(data.displayName);  
   console.log(data.username);  
   const res = await db.login(data.id,data.username,"a",data.displayName,"lastname!")
+  currentUser=data.id;
+  console.log("Current user: "+currentUser)
   return done(null, profile);
 }));
 
@@ -76,13 +76,10 @@ router.get('/auth/github', passport.authenticate('github'));
 router.get('/auth/github/callback',
     passport.authenticate('github', { failureRedirect: '/login' }),
     (req, res) => {
-        res.redirect('/profile');
-    }
+        {res.redirect(`http://localhost:3000/?userId=${req.user.id}`);}}
 );
 
-router.get('/profile', (req, res) => {
-    res.send(`<h1>Hello, ${req.user.displayName}!</h1>`);
-});
+
 
 
 //Database stuff
@@ -115,7 +112,7 @@ router.get('/api/search-books/:sTerms',async(req,res)=>{
 
 router.get('/api/retrieve-book/:id',async(req,res)=>{
   const id=req.params.id;
-  console.log(`Retrieving book with ID: ${id}`); // Log the book ID
+  console.log(`Retrieving book with ID: ${id}`); 
 
   try{
     const result=await axios.get("https://www.googleapis.com/books/v1/volumes/"+id)
@@ -194,8 +191,6 @@ const aToken=await getAccessToken();
   let valence=req.query.valence;
   console.log(energy)
   console.log(valence)
-  
-  console.log("HERERERER")
   console.log("Acess token:" + aToken)
   try{
    const result = await axios.get('https://api.spotify.com/v1/recommendations',{
@@ -209,13 +204,68 @@ const aToken=await getAccessToken();
       'Authorization':'Bearer '+aToken
     }
   });
-    console.log(result.data)
-    res.status(200).json(result.data) 
+    for (let i=0;i<result.data.tracks.length;i++){
+      result.data.tracks[i].name=result.data.tracks[i].name.replace("/", "-")
+      //console.log(result.data.tracks[i].name)
+      //console.log(result.data.tracks[i].album.images);
+    }
+      res.status(200).json(result.data) 
   }catch(err){
     console.log(err);
     console.log("Messed up in retrieving songs recs from spotify")
   }
   
+})
+
+router.post('/api/save-book/:id',async(req,res)=>{
+  const id=req.params.id;
+  const playlist=req.body;
+  console.log(playlist)
+  console.log("Saving book with ID: "+id)
+  try{
+    const res1 = await db.saveBook(id,playlist)
+    res.status(200).json(res1)
+  }catch(err){
+    console.log(err);
+    res.status(500).json({error: "Error saving book"})
+  }
+})
+
+router.get('/api/get-saved-books/:id',async(req,res)=>{
+  id=req.params.id;
+  console.log("user: "+ id + "getting books")
+  const res1= await db.getSavedBooks(id);
+  //console.log("res1: "+JSON.parse(JSON.stringify(res1)))
+  //console.log("res1: " + JSON.stringify(res1[2].book, null, 2));
+  return res.json(res1);
+})
+
+router.post('/api/remove-book/:id/:book',async(req,res)=>{
+  const id=req.params.id;
+  const book=req.params.book;
+ 
+  console.log("Removing book with ID: ASDASDASODASD"+book)
+  try{
+    const res1 = await db.removeBook(id,book)
+    return res.json(res1)
+  }catch(err){
+    console.log(err);
+    res.status(500).json({error: "Error removing book"})
+  }
+})
+
+router.post('/api/remove-book-from-playlist/:id/:playlist/:book',async(req,res)=>{
+  const id=req.params.id;
+  const playlist=req.params.playlist;
+  const book=req.params.book;
+  console.log("Removing book with ID: "+book+" from playlist: "+playlist)
+  try{
+    const res1 = await db.removeBookFromPlaylist(id,playlist,book)
+    return res.json(res1)
+  }catch(err){
+    console.log(err);
+    res.status(500).json({error: "Error removing book"})
+  }
 })
 
 module.exports = router;
